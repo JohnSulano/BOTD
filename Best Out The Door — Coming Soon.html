@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///Users/johnsulano/Desktop/Best%20Out%20The%20Door%20%E2%80%94%20Coming%20Soon.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Best Out The Door is coming soon. Approved dealers compete with transparent out-the-door offers. Buyers pay $0 to use the platform.">
+  <title>Best Out The Door — Coming Soon</title>
+  <style>
+    :root {
+      --blue: #123f73;
+      --blue-deep: #0a2a4c;
+      --orange: #f58220;
+      --ink: #16212d;
+      --muted: #5f6c7b;
+      --paper: #ffffff;
+      --soft: #f4f7fa;
+      --line: #dbe3eb;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 85% 12%, rgba(245,130,32,.14), transparent 24rem),
+        linear-gradient(180deg, #f9fbfd 0%, #ffffff 70%);
+    }
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      width: min(1120px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 28px 0 14px;
+    }
+    .logo {
+      display: block;
+      width: min(370px, 78vw);
+      height: auto;
+    }
+    main {
+      width: min(1120px, calc(100% - 36px));
+      margin: auto;
+      padding: 34px 0 58px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 52px;
+      align-items: center;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 18px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 4px;
+      border-radius: 999px;
+      background: var(--orange);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(46px, 7vw, 86px);
+      line-height: .96;
+      letter-spacing: -.055em;
+      color: var(--blue-deep);
+      max-width: 850px;
+    }
+    h1 .accent { color: var(--orange); }
+    .lead {
+      margin: 26px 0 0;
+      max-width: 720px;
+      font-size: clamp(19px, 2.2vw, 26px);
+      line-height: 1.45;
+      color: var(--muted);
+    }
+    .zero {
+      margin-top: 30px;
+      padding: 22px 24px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-left: 7px solid var(--orange);
+      border-radius: 14px;
+      box-shadow: 0 14px 34px rgba(10,42,76,.08);
+    }
+    .zero strong {
+      display: block;
+      color: var(--blue-deep);
+      font-size: clamp(26px, 4vw, 42px);
+      letter-spacing: -.035em;
+    }
+    .zero span {
+      display: block;
+      margin-top: 7px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: var(--muted);
+    }
+    .promise {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .pill {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.8);
+      color: var(--blue);
+      border-radius: 999px;
+      padding: 9px 13px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(155deg, var(--blue-deep), var(--blue));
+      color: #fff;
+      padding: 42px 34px;
+      border-radius: 26px;
+      box-shadow: 0 24px 60px rgba(10,42,76,.23);
+    }
+    .card::after {
+      content: "$0";
+      position: absolute;
+      right: -22px;
+      bottom: -58px;
+      font-size: 190px;
+      line-height: 1;
+      font-weight: 900;
+      color: rgba(255,255,255,.055);
+      letter-spacing: -.08em;
+    }
+    .construction {
+      display: inline-block;
+      color: var(--orange);
+      background: rgba(245,130,32,.13);
+      border: 1px solid rgba(245,130,32,.35);
+      font-weight: 900;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      font-size: 12px;
+      border-radius: 999px;
+      padding: 8px 11px;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.05;
+      letter-spacing: -.035em;
+    }
+    .card p {
+      margin: 18px 0 0;
+      color: rgba(255,255,255,.82);
+      font-size: 17px;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+    .steps {
+      margin-top: 28px;
+      display: grid;
+      gap: 12px;
+      position: relative;
+      z-index: 1;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: start;
+      font-weight: 700;
+    }
+    .step b {
+      color: var(--orange);
+      font-size: 18px;
+    }
+    footer {
+      width: min(1120px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 18px 0 34px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 800px) {
+      header { padding-top: 20px; }
+      main { grid-template-columns: 1fr; gap: 34px; padding-top: 24px; }
+      .card { padding: 32px 24px; }
+      h1 { font-size: clamp(44px, 15vw, 68px); }
+      .lead { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img class="logo" src="file:///Users/johnsulano/Desktop/Best%20Out%20The%20Door%20%E2%80%94%20Coming%20Soon_files/best-logo.jpg" alt="Best Out The Door">
+    </header>
+
+    <main>
+      <section>
+        <div class="eyebrow">A better way to buy a vehicle is coming</div>
+        <h1>The Best Out The Door Price. <span class="accent">Period.</span></h1>
+        <p class="lead">One request. Approved dealers compete with transparent out-the-door offers. You compare the numbers and choose the dealer you want.</p>
+
+        <div class="zero">
+          <strong>BUYERS PAY $0 — START TO FINISH.</strong>
+          <span>No signup fee. No bidding fee. No Best Out The Door service fee. No hidden BOTD fees.</span>
+        </div>
+
+        <div class="promise" aria-label="Key promises">
+          <span class="pill">Transparent OTD Offers</span>
+          <span class="pill">Approved Dealers</span>
+          <span class="pill">You Choose the Dealer</span>
+        </div>
+      </section>
+
+      <aside class="card">
+        <div class="construction">Under Construction</div>
+        <h2>We’re getting the marketplace ready.</h2>
+        <p>Best Out The Door is being prepared for pilot testing. We’re focused on making the buyer and dealer experience simple, secure and transparent before opening the doors.</p>
+        <div class="steps">
+          <div class="step"><b>01</b><span>Tell us the vehicle you want.</span></div>
+          <div class="step"><b>02</b><span>Approved dealers compete for your business.</span></div>
+          <div class="step"><b>03</b><span>You compare complete offers and choose.</span></div>
+        </div>
+        <p><strong>Check back soon.</strong></p>
+      </aside>
+    </main>
+
+    <footer>
+      <span>© 2026 Best Out The Door. All rights reserved.</span>
+      <span>Best Out The Door costs buyers $0 to use.</span>
+    </footer>
+  </div>
+
+
+</body></html>
